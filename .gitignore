@@ -1,0 +1,9 @@
+# Project exclude paths
+/.gradle/
+/spring-basic/.gradle/
+/spring-basic/build/
+/spring-basic/build/classes/java/main/
+/spring-mvc/build/
+/spring-mvc/build/classes/java/main/
+.idea
+gradle
