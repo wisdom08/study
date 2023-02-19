@@ -17,11 +17,11 @@ public class AppConfig {
         return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
 
-    private MemoryMemberRepository memberRepository() {
+    private MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
 
-    private FixDiscountPolicy discountPolicy() {
+    private DiscountPolicy discountPolicy() {
         return new FixDiscountPolicy();
     }
 }
