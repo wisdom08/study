@@ -1,9 +1,7 @@
 package org.example.stack;
 
-import javax.naming.SizeLimitExceededException;
-
 public interface StackInterface<E> {
-    void push(E newItem) throws SizeLimitExceededException;
+    void push(E newItem);
     E pop();
     E top();
     boolean isEmpty();
