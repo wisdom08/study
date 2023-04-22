@@ -13,5 +13,14 @@ public class StackApplication {
         System.out.println("empty = " + empty);
         Integer top = stack.top();
         System.out.println("top = " + top);
+
+        LinkedStack<String> linkedStack = new LinkedStack<>();
+        linkedStack.push("test1");
+        linkedStack.push("test2");
+        linkedStack.push("test3");
+        linkedStack.pop();
+
+        String topOfLinkedStack = linkedStack.top();
+        System.out.println("topOfLinkedStack = " + topOfLinkedStack);
     }
 }
