@@ -30,7 +30,7 @@ public class ArrayStack<E> implements StackInterface<E> {
         if (isEmpty()) {
             throw new RuntimeException();
         }
-        return stack[--topIndex];
+        return stack[topIndex--];
     }
 
     @Override
